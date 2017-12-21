@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	transition: .2s;
+}
+body, h1, h2, p {
+	margin: 0;
+	font-family: "Trebuchet MS";
+	display: inline;
+}
+.container {
+	width: 100%;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 1;
+}
+h1 span {
+	font-size: 72px;
+}
+.section-first {
+	min-height: 30vh;
+	background-color: #e8f0ff;
+	padding: 30px 15px 0 0;
+	position: relative;
+}
+.everest {
+	position: absolute;
+	bottom: 0;
+	right: 22%;
+	width: 230px;
+}
+.helicopter {
+	position: absolute;
+	bottom: 15%;
+	right: 22%;
+	width: 70px;
+	transform: rotate(12deg)
+}
+.section-second {
+	background-color: #d8e6ff;
+	position: relative;
+	padding-top: 20px;
+	padding-right: 50px;
+	min-height: 65vh;
+}
+.text {
+	width: 120px;
+	height: 100px;
+	margin: 0;
+	font-size: 8px;
+	border:solid red 1px;
+	display: inline-block;
+	color: #364259;
+	margin-bottom: 30px;
+	margin-left: 7px;
+}
+.text:nth-child(4) {
+	margin-right: 30px;
+}
+
+.section-second img {
+	float: right;
+	width: 190px;
+	height: 180px;
+	margin-top: 39px;
+	margin-right: 7px;
+
+}
+.section-third {
+	background-color: #afbfdb;
+	min-height: 10vh;
+	padding-top: 14px;
+	padding-left: 30px;  
+}
+.photo {
+	background-image: url(../img/me.jpg);
+	width: 40px;
+	height: 40px;
+	background-size: cover;	
+	border-radius: 50%;
+	display: inline-block;
+}
+.section-third h1 {
+	display: inline;
+}
+.section-third p {
+	display: inline;
+}
